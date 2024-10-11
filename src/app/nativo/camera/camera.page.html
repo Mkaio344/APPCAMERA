@@ -11,11 +11,16 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-button expand="block" (click) = "tirarFoto()" >
-  </ion-button>
-  <ion-card [hidden] = "!foto">
-    <img src = "{{foto}}"/>
-  </ion-card>
+  <div class="mainn">
+
+    <ion-button expand="block" (click)= "tirarFoto()" class="jkldssadjklsadjkl"> 
+      <ion-icon icon="camera"></ion-icon> Capturar tela 
+    
+      <ion-card [hidden] = "!foto">
+        <img src = "{{foto}}"/>
+      </ion-card>
+    
+    </ion-button>
+
+  </div>
 </ion-content>
-
-
