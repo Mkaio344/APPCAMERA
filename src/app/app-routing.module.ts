@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'camera',
     loadChildren: () => import('./nativo/camera/camera.module').then( m => m.CameraPageModule)
+  },
+  {
+    path: 'flash',
+    loadChildren: () => import('./nativo/flash/flash.module').then( m => m.FlashPageModule)
   }
 ];
 

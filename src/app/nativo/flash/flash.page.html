@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>flash</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+
+      <ion-buttons slot="end">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+
+      <ion-title size="large">flash</ion-title>
+
+      <ion-buttons slot="end">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+
+      
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+
+<ion-content [fullscreen]="true">
+  <ion-img [src]="onoff" (click)="clicar()">
+  </ion-img>
+</ion-content>
